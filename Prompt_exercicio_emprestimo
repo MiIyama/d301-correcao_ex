@@ -1,0 +1,194 @@
+Microsoft Windows [versão 10.0.17134.885]
+(c) 2018 Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\Renomear.DESKTOP-BS0U13S>python
+Python 3.7.2 (tags/v3.7.2:9a3ffc0492, Dec 23 2018, 23:09:28) [MSC v.1916 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> pwd
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pwd' is not defined
+>>> exit()
+
+C:\Users\Renomear.DESKTOP-BS0U13S>pwd
+'pwd' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\Renomear.DESKTOP-BS0U13S>cd Desktop
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop>cd acadMiIyama
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama>exercicio_emprestimo.py
+'exercicio_emprestimo.py' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama>ls
+'ls' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama>print
+Não há arquivos para imprimir
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama>python exercicio_emprestimo.py
+python: can't open file 'exercicio_emprestimo.py': [Errno 2] No such file or directory
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama>cd d301 - introd Pythom
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+  File "exercicio.py", line 17
+    def emprestimo()
+                   ^
+SyntaxError: invalid syntax
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>print
+Não há arquivos para imprimir
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+20
+Qual o valor do emprestimo?
+434
+Qual o seu salario?
+3
+Quantas parcelas?
+
+Traceback (most recent call last):
+  File "exercicio.py", line 11, in <module>
+    qtd_parcelas = int(input())
+ValueError: invalid literal for int() with base 10: ''
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+23
+Qual o valor do emprestimo?
+324,89
+Traceback (most recent call last):
+  File "exercicio.py", line 5, in <module>
+    valor_emprestimo = int(input())
+ValueError: invalid literal for int() with base 10: '324,89'
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+34
+Qual o valor do emprestimo?
+2324,543
+Traceback (most recent call last):
+  File "exercicio.py", line 5, in <module>
+    valor_emprestimo = float(input())
+ValueError: could not convert string to float: '2324,543'
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+1
+Qual o valor do emprestimo?
+23.3
+Qual o seu salario?
+33.343
+Quantas parcelas?
+4
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+23
+Qual o valor do emprestimo?
+3423
+Qual o seu salario?
+342
+Quantas parcelas?
+3
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+23
+Qual o valor do emprestimo?
+2
+Qual o seu salario?
+2
+Quantas parcelas?
+2
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+23
+Qual o valor do emprestimo?
+32
+Qual o seu salario?
+43
+Quantas parcelas?
+3
+Aceito
+Traceback (most recent call last):
+  File "exercicio.py", line 24, in <module>
+    emprestimo(idade, valor_emprestimo, salario, qtd_parcelas)
+  File "exercicio.py", line 19, in emprestimo
+    montante = montante.round(ndigits=2)
+AttributeError: 'float' object has no attribute 'round'
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+12
+Qual o valor do emprestimo?
+12
+Qual o seu salario?
+12
+Quantas parcelas?
+12
+Traceback (most recent call last):
+  File "exercicio.py", line 24, in <module>
+    emprestimo()
+TypeError: emprestimo() missing 4 required positional arguments: 'idade', 'valor_emprestimo', 'salario', and 'qtd_parcelas'
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+23
+Qual o valor do emprestimo?
+234324
+Qual o seu salario?
+34
+Quantas parcelas?
+3
+Aceito
+Traceback (most recent call last):
+  File "exercicio.py", line 24, in <module>
+    emprestimo(idade, valor_emprestimo, salario, qtd_parcelas)
+  File "exercicio.py", line 19, in emprestimo
+    montante = montante.round(ndigits=2)
+AttributeError: 'float' object has no attribute 'round'
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+  File "exercicio.py", line 24
+    emprestimo(idade = input(), valor_emprestimo, salario, qtd_parcelas)
+                               ^
+SyntaxError: positional argument follows keyword argument
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+23
+Qual o valor do emprestimo?
+23.45
+Qual o seu salario?
+234.5456
+Quantas parcelas?
+3
+Aceito
+Traceback (most recent call last):
+  File "exercicio.py", line 24, in <module>
+    emprestimo(idade, valor_emprestimo, salario, qtd_parcelas)
+  File "exercicio.py", line 19, in emprestimo
+    montante = montante.round(ndigits=2)
+AttributeError: 'float' object has no attribute 'round'
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>python exercicio.py
+Qual a sua idade?
+23
+Qual o valor do emprestimo?
+2432.5776
+Qual o seu salario?
+32443.564
+Quantas parcelas?
+3
+Aceito
+O valor total do empréstimo é de 3064.35 e o valor da parcela é de 1021.45
+
+C:\Users\Renomear.DESKTOP-BS0U13S\Desktop\acadMiIyama\d301 - introd Pythom>
